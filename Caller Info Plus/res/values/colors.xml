@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pager_strip_bg">#ee33b5e5</color>
+    <color name="pager_strip_bg2">#ee009d00</color>
+    <color name="pager_bg">#EEFCF8</color>
+    
+    <color name="ButtonA_StartColor">#BBBBBB</color>
+    <color name="ButtonA_EndColor">#777777</color>
+    <color name="ButtonA_DisabledStartColor">#565051</color>
+    <color name="ButtonA_DisabledEndColor">#736F6E</color>
+    <color name="ButtonA_BorderColor">#333333</color>
+    <color name="gold">#f8d228</color>
+    
+    <color name="ButtonGreen_StartColor">#7cb62e</color>
+    <color name="ButtonGreen_EndColor">#4f7e0e</color>
+    
+    <color name="ButtonOrange_StartColor">#faa41a</color>
+    <color name="ButtonOrange_EndColor">#f47b20</color>
+    
+    <color name="ButtonWhite_StartColor">#ffffff</color>
+    <color name="ButtonWhite_EndColor">#ededed</color>
+    
+</resources>

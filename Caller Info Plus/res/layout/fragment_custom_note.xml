@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/linNumberCustomNote"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:layout_marginTop="@dimen/row_margin_top"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/etNumberCustomNote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Enter number"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/bFromContacts"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:text="Contacts"
+            android:background="@drawable/button_a" />
+
+        <Button
+            android:id="@+id/bFromCallLog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:text="Call Log"
+            android:background="@drawable/button_a" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linNoteCustomNote"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:layout_below="@+id/linNumberCustomNote"
+        android:layout_marginTop="@dimen/row_margin_top"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/etNoteCustomNote"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:hint="Enter text"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/bSaveNote"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/button_green"
+            android:text="Save" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linDeleteAllCustomNote"
+        android:layout_below="@+id/linNoteCustomNote"
+        android:layout_marginTop="@dimen/row_margin_top" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linDeleteAllCustomNote"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+
+        <Button
+            android:id="@+id/bDeleteAllCustomNote"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@drawable/button_orange"
+            android:text="Delete All" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+</RelativeLayout>

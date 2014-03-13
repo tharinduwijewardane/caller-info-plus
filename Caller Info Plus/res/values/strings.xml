@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Caller Info Plus</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="info">\nWhen you get a call from an unknown number, have you ever wondered whether it is the same number that you got a call from yesterday or last week? \nWhether it is the number which you didn’t bother to save?
+\n\nThen congratulations, you have already installed the solution. And you can exit the app now. \nWhen you are receiving a call, a note will be displayed informing you whether the caller has ever called you and if so how much time before. 
+\n\nCaller information is taken from your phone call log.
+\n\nAnd you can add a custom note of your choice to be displayed with the last-called-time. \n\nAll unknown numbers will be saved within the app itself. So you don’t have to worry if you accidentally delete entries in your phone call log. 
+\n\nThese services are invoked only when you are receiving a call. So this will not drain your battery. \n\nYou can turn on/off app components individually.</string>
+    <string name="about">\nYour feedback is much appreciated. \nThanks.</string>
+    <string name="about2">- Tharindu Wijewardane -</string>
+
+</resources>
